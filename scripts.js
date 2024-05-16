@@ -95,7 +95,7 @@ const applySearchFilters = (filters) => {
   });
 };
 
-// Event listeners
+// Event listener functions
 getElement("[data-search-cancel]").addEventListener("click", () =>
   closeOverlay("[data-search-overlay]")
 );
